@@ -103,10 +103,12 @@ def on_press(key):
             control_up = True
         case 'CONTROL_LEFT':
             control_left = True
+            control_right = False
         case 'CONTROL_DOWN':
             control_down = True
         case 'CONTROL_RIGHT':
             control_right = True
+            control_left = False
         case 'C_UP':
             c_up = True
         case 'C_LEFT':
